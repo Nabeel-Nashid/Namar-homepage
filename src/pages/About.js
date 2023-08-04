@@ -19,7 +19,7 @@ function About() {
             Trading based in the Sultanate of Oman. We import goods from many
             parts of the world and neighboring GCC countries.
           </p>
-          <button className="bg-[#162c53] p-2 mt-8 rounded-sm w-32 text-white font-header">
+          <button className="bg-[#162c53] sm:p-2 p-1 text-xs sm:text-base mt-8 rounded-sm sm:w-32 w-20 text-white font-header">
             View More
           </button>
         </div>

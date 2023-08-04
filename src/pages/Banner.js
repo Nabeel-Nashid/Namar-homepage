@@ -59,7 +59,7 @@ function Banner() {
           <p className="text-white text-lg ">
             We Distributes & Represents major Brands
           </p>
-          <button className="bg-[#162c53] p-2 my-3 rounded-sm w-32 text-white font-header">
+          <button className="bg-[#162c53] sm:p-2 p-1 sm:my-3 text-xs sm:text-base rounded-sm sm:w-32 w-20 text-white font-header">
             Learn More
           </button>
         </div>
