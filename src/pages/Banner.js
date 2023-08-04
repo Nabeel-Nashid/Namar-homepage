@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import bgImage from "../assets/banner_002.jpg";
+import bgImage from "../assets/banner_02.jpg";
 import larrow from "../assets/left arrow.png";
 import rarrow from "../assets/arrow right.png";
 import bgImage2 from "../assets/building-material_03.jpg";

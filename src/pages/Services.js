@@ -1,8 +1,8 @@
 import React from "react";
-import one from "../assets/food_003.jpg";
-import two from "../assets/building-material_003.jpg";
-import three from "../assets/import_003.jpg";
-import four from "../assets/contract_003.jpg";
+import one from "../assets/food_03.jpg";
+import two from "../assets/building-material_03.jpg";
+import three from "../assets/import_03.jpg";
+import four from "../assets/contract_03.jpg";
 import food from "../assets/leaf.png";
 import blogo from "../assets/building.png";
 import slogo from "../assets/ship.png";
@@ -22,7 +22,7 @@ function Services() {
       </div>
       <div className="md:grid md:grid-cols-2 grid-cols-1 gap-4 flex flex-col justify-center items-center">
         <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-          <div class="h-96 w-96">
+          <div class="sm:h-96 h-80 sm:w-96 w-80">
             <img
               class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
               src={one}
@@ -31,7 +31,7 @@ function Services() {
           </div>
           <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
           <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-            <img src={food} className="h-10 w-12" />
+            <img src={food} className="sm:h-10 w-12" />
             <h1 class="font-dmserif text-3xl font-bold text-white">
               Food Stuff Trading
             </h1>
@@ -39,7 +39,7 @@ function Services() {
         </div>
 
         <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-          <div class="h-96 w-96">
+          <div class="sm:h-96 h-80 sm:w-96 w-80">
             <img
               class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
               src={two}
@@ -56,7 +56,7 @@ function Services() {
         </div>
 
         <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-          <div class="h-96 w-96">
+          <div class="sm:h-96 h-80 sm:w-96 w-80">
             <img
               class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
               src={three}
@@ -73,7 +73,7 @@ function Services() {
         </div>
 
         <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-          <div class="h-96 w-96">
+          <div class="sm:h-96 h-80 sm:w-96 w-80">
             <img
               class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
               src={four}
