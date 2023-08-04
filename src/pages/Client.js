@@ -7,14 +7,14 @@ import fifth from "../assets/Namar-home-page_03.jpg";
 
 function Client() {
   return (
-    <div className="w-[full] h-[450px] mx-auto mt-10 bg-[#162c53] flex flex-col justify-center items-center">
+    <div name="careers" className="w-[full] h-[450px] mx-auto mt-10 bg-[#162c53] flex flex-col justify-center items-center">
       <div className="max-w-[800px]">
         <div className="flex flex-col justify-center items-center my-7">
-          <h1 className="text-lg text-white mb-3">OUR CLIENTELE</h1>
-          <h1 className="text-3xl font-bold text-white mb-1">
+          <h1 className="text-base sm:text-lg text-white mb-3">OUR CLIENTELE</h1>
+          <h1 className="text-xl sm:text-3xl font-bold text-white mb-1">
             Our Client Base has increased by
           </h1>
-          <h1 className="text-3xl font-bold text-white mb-1">
+          <h1 className="text-xl sm:text-3xl font-bold text-white mb-1">
             by 40% Annually
           </h1>
         </div>
