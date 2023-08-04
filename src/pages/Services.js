@@ -21,41 +21,72 @@ function Services() {
         </h1>
       </div>
       <div className="md:grid md:grid-cols-2 grid-cols-1 gap-4 flex flex-col justify-center items-center">
-        <div
-          className="bg-cover bg-center flex flex-col justify-center items-center md:w-96 w-80 md:h-96 h-80"
-          style={{ backgroundImage: `url(${one})` }}
-        >
-          <img src={food} className="h-12 w-12" />
-          <h1 className="text-2xl text-white font-extrabold ">
-            Food Stuff Trading
-          </h1>
+        <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+          <div class="h-96 w-96">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src={one}
+              alt=""
+            />
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+          <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+            <img src={food} className="h-10 w-12" />
+            <h1 class="font-dmserif text-3xl font-bold text-white">
+              Food Stuff Trading
+            </h1>
+          </div>
         </div>
-        <div
-          className="bg-cover bg-center flex flex-col justify-center items-center   md:w-96 w-80 md:h-96 h-80"
-          style={{ backgroundImage: `url(${two})` }}
-        >
-          <img src={blogo} className="h-12 w-12" />
-          <h1 className="text-2xl text-white font-extrabold ">
-            Building Materail
-          </h1>
+
+        <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+          <div class="h-96 w-96">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src={two}
+              alt=""
+            />
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+          <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+            <img src={blogo} className="h-10 w-12" />
+            <h1 class="font-dmserif text-3xl font-bold text-white">
+              Building Materail
+            </h1>
+          </div>
         </div>
-        <div
-          className="bg-cover bg-center flex flex-col justify-center items-center  md:w-96 w-80 md:h-96 h-80"
-          style={{ backgroundImage: `url(${three})` }}
-        >
-          <img src={slogo} className="h-12 w-12" />
-          <h1 className="text-2xl text-[#fefffe] font-extrabold ">
-            Import & Export
-          </h1>
+
+        <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+          <div class="h-96 w-96">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src={three}
+              alt=""
+            />
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+          <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+            <img src={slogo} className="h-11 w-12" />
+            <h1 class="font-dmserif text-3xl font-bold text-white">
+              Import & Export
+            </h1>
+          </div>
         </div>
-        <div
-          className="bg-cover bg-center flex flex-col justify-center items-center  md:w-96 w-80 md:h-96 h-80"
-          style={{ backgroundImage: `url(${four})` }}
-        >
-          <img src={spanner} className="h-12 w-12" />
-          <h1 className="text-2xl text-white font-extrabold ">
-            General Contracting
-          </h1>
+
+        <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+          <div class="h-96 w-96">
+            <img
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src={four}
+              alt=""
+            />
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+          <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+            <img src={spanner} className="h-10 w-12" />
+            <h1 class="font-dmserif text-3xl font-bold text-white">
+              General Contracting
+            </h1>
+          </div>
         </div>
       </div>
     </div>
