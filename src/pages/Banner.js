@@ -35,7 +35,7 @@ function Banner() {
   return (
     <div
       name="home"
-      className="flex justify-between w-[full] bg-cover bg-center h-[600px] duration-500"
+      className="flex justify-between w-[full] bg-cover bg-center h-[600px] duration-500 relative"
       style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
     >
       <div
