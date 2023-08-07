@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Namar-homepage/static/css/main.abbbe761.css",
+    "main.js": "/Namar-homepage/static/js/main.adda82c1.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Namar-homepage/static/js/787.28cb0dcd.chunk.js",
+    "static/media/food_03.jpg": "/Namar-homepage/static/media/food_03.0d003a09a9fe7d233e37.jpg",
+    "static/media/banner_02.jpg": "/Namar-homepage/static/media/banner_02.c88098de6e66b580bbef.jpg",
+    "static/media/about-us_03.jpg": "/Namar-homepage/static/media/about-us_03.4e3ed9f802d21fa8dba1.jpg",
+    "static/media/import_03.jpg": "/Namar-homepage/static/media/import_03.c3d1572b6e0ff383c078.jpg",
+    "static/media/building-material_03.jpg": "/Namar-homepage/static/media/building-material_03.b6cdab58c8f17849704e.jpg",
+    "static/media/contract_03.jpg": "/Namar-homepage/static/media/contract_03.69a289dc29db91ef0efb.jpg",
+    "static/media/logo.svg": "/Namar-homepage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Namar-homepage/index.html",
+    "main.abbbe761.css.map": "/Namar-homepage/static/css/main.abbbe761.css.map",
+    "main.adda82c1.js.map": "/Namar-homepage/static/js/main.adda82c1.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Namar-homepage/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abbbe761.css",
+    "static/js/main.adda82c1.js"
+  ]
+}
