@@ -12,7 +12,7 @@ function Services() {
   return (
     <div name="services" className="max-w-[800px] h-[full] mx-auto my-10">
       <div className="flex flex-col items-center mt-20">
-        <h1 className="text-base sm:text-lg text-black mb-3">OUR SERVICES</h1>
+        <h1 className="text-sm sm:text-lg text-black mb-3">OUR SERVICES</h1>
         <h1 className="text-xl sm:text-3xl font-extrabold text-[#162c53] mb-1">
           What We Are Offering To
         </h1>
